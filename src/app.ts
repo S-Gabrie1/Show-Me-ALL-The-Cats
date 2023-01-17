@@ -17,7 +17,6 @@
     btn.addEventListener("click", (event) => {
         
          let randomNr = Math.floor(Math.random() * kitten.length);
-         
          const catsDiv = document.querySelector(".container") as HTMLElement;
          catsDiv.innerHTML = "";
          catsDiv.style.display = "block";

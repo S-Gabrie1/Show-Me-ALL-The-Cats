@@ -1,5 +1,5 @@
 "use strict";
-const url = "https://api.thecatapi.com/v1/images/search?limit=200";
+const url = "https://api.thecatapi.com/v1/images/search?limit=50";
 const cat = document.createElement("img");
 cat.className = ("catImg");
 const p = fetch(url)
